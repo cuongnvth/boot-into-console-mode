@@ -3,11 +3,10 @@
 GRUB_CMDLINE_LINUX_DEFAULT="text"
 GRUB_TERMINAL=console
 After saving changes you need to run:
-
 sudo update-grub
+
++ Khoi dong console mode
 sudo systemctl set-default multi-user.target
 
-Undoing text-mode
-To undo sudo systemctl set-default multi-user.target simply type
-
++ Khoi dong graphic mode
 sudo systemctl set-default graphical.target 
